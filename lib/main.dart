@@ -12,29 +12,10 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.redAccent[200],
         body: SafeArea(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
-              Container(
-                height: 100.0,
-                width: 200.0,
-                padding: EdgeInsets.symmetric(vertical: 20, horizontal: 10), 
-                color: Colors.white,
-                child: Text('Container 1'),
-              ),
-              Container(
-                height: 100.0,
-                width: 200.0,
-                padding: EdgeInsets.symmetric(vertical: 20, horizontal: 10), 
-                color: Colors.white,
-                child: Text('Container 2'),
-              ),
-              Container(
-                height: 100.0,
-                width: 200.0,
-                padding: EdgeInsets.symmetric(vertical: 20, horizontal: 10), 
-                color: Colors.white,
-                child: Text('Container 3'),
+              CircleAvatar(
+                radius: 50.0,
+                backgroundImage: AssetImage(),
               ),
             ],
           ),

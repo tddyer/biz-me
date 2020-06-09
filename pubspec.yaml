@@ -25,6 +25,9 @@ flutter:
     - images/
 
   fonts:
-    - family: ArchitectsDaughter
+    - family: Architects Daughter
       fonts:
       - asset: fonts/ArchitectsDaughter-Regular.ttf
+    - family: Cormorant Garamond
+      fonts:
+      - asset: fonts/CormorantGaramond-SemiBoldItalic.ttf

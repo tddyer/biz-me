@@ -14,9 +14,17 @@ class MyApp extends StatelessWidget {
           child: Column(
             children: <Widget>[
               CircleAvatar(
-                radius: 50.0,
+                radius: 60.0,
                 backgroundImage: AssetImage('images/td_headshot.jpg'),
               ),
+              Text(
+                'Tanner Dyer',
+                style: TextStyle(
+                  fontSize: 40.0,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold
+                ),
+              )
             ],
           ),
         ),

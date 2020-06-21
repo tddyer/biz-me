@@ -9,14 +9,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.redAccent[200],
+        backgroundColor: Colors.red[500],
         body: SafeArea(
           child: Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 CircleAvatar(
-                  radius: 60.0,
+                  radius: 90.0,
                   backgroundImage: AssetImage('images/td_headshot.jpg'),
                 ),
                 Text(
@@ -31,8 +31,9 @@ class MyApp extends StatelessWidget {
                 Text(
                   'JUNIOR DEVELOPER',
                   style: TextStyle(
-                    fontSize: 20.0,
-                    color: Colors.white,
+                    fontSize: 25.0,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.red[200],
                     fontFamily: 'Source Sans Pro',
                   )
                 )

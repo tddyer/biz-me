@@ -31,3 +31,6 @@ flutter:
     - family: Cormorant Garamond
       fonts:
       - asset: fonts/CormorantGaramond-SemiBoldItalic.ttf
+    - family: Source Sans Pro
+      fonts:
+      - asset: fonts/SourceSansPro-Light.ttf

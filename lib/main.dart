@@ -27,6 +27,14 @@ class MyApp extends StatelessWidget {
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
                   ),
+                ),
+                Text(
+                  'JUNIOR DEVELOPER',
+                  style: TextStyle(
+                    fontSize: 20.0,
+                    color: Colors.white,
+                    fontFamily: 'Source Sans Pro',
+                  )
                 )
               ],
             ),

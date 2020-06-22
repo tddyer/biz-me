@@ -16,13 +16,13 @@ class MyApp extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 CircleAvatar(
-                  radius: 90.0,
+                  radius: 70.0,
                   backgroundImage: AssetImage('images/td_headshot.jpg'),
                 ),
                 Text(
                   'Tanner Dyer',
                   style: TextStyle(
-                    fontSize: 50.0,
+                    fontSize: 45.0,
                     fontFamily: 'Cormorant Garamond',
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
@@ -33,6 +33,7 @@ class MyApp extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 20.0,
                     fontWeight: FontWeight.bold,
+                    letterSpacing: 5.0,
                     color: Colors.red[200],
                     fontFamily: 'Source Sans Pro',
                   )

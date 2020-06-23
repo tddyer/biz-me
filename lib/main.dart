@@ -41,54 +41,38 @@ class MyApp extends StatelessWidget {
                 Card(
                   color: Colors.white,
                   margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                  child: Padding(
-                    padding: const EdgeInsets.all(10.0),
-                    child: Row(
-                      children: <Widget>[
-                        Icon(
-                          Icons.phone,
-                          color: Colors.red[400], 
-                        ),
-                        SizedBox(
-                          width: 10.0,
-                        ),
-                        Text(
-                          '(847)-856-9873',
-                          style: TextStyle(
-                            color: Colors.red[400],
-                            fontFamily: 'Source Sans Pro',
-                            fontSize: 20.0
-                          ),
-                        )
-                      ],
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.phone,
+                      color: Colors.red[400], 
                     ),
-                  )
+                    title: Text(
+                      '(847)-856-9873',
+                      style: TextStyle(
+                        color: Colors.red[400],
+                        fontFamily: 'Source Sans Pro',
+                        fontSize: 20.0
+                      ),
+                    ), 
+                  ),
                 ),
                 Card(
                   color: Colors.white,
                   margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                  child: Padding(
-                    padding: const EdgeInsets.all(10.0),
-                    child: Row(
-                      children: <Widget>[
-                        Icon(
-                          Icons.email,
-                          color: Colors.red[400], 
-                        ),
-                        SizedBox(
-                          width: 10.0,
-                        ),
-                        Text(
-                          'tdyer@hawk.iit.edu',
-                          style: TextStyle(
-                            color: Colors.red[400],
-                            fontFamily: 'Source Sans Pro',
-                            fontSize: 20.0
-                          ),
-                        )
-                      ],
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.email,
+                      color: Colors.red[400],
                     ),
-                  )
+                    title: Text(
+                      'tdyer@hawk.iit.edu',
+                      style: TextStyle(
+                        color: Colors.red[400],
+                        fontFamily: 'Source Sans Pro',
+                        fontSize: 20.0
+                      ),
+                    ),
+                  ),
                 )
               ],
             ),

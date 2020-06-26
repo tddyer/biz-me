@@ -81,6 +81,19 @@ class MyApp extends StatelessWidget {
                     ),
                   ),
                 ),
+                ButtonBar(
+                  alignment: MainAxisAlignment.center,
+                  children: <Widget>[
+                    RaisedButton( 
+                      onPressed: () {},
+                      color: Colors.white,
+                      child: Text('LinkedIn'),),
+                    RaisedButton(
+                      onPressed: () {}, 
+                      color: Colors.white,
+                      child: Text('Github')),
+                  ],
+                ),
               ],
             ),
           ),

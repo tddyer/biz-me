@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 void main() {
   runApp(MyApp());
@@ -85,11 +86,11 @@ class MyApp extends StatelessWidget {
                   alignment: MainAxisAlignment.center,
                   children: <Widget>[
                     FlatButton( 
-                      onPressed: () {},
+                      onPressed: _launchLinkedinURL,
                       color: Colors.transparent,
                       child: Image.asset('images/linkedin-material-white.png')),
                     FlatButton(
-                      onPressed: () {}, 
+                      onPressed: _launchLinkedinURL, 
                       color: Colors.transparent,
                       child: Image.asset('images/github-material-white.png')),
                   ],
@@ -100,5 +101,23 @@ class MyApp extends StatelessWidget {
         ),
       ),
     );
+  }
+}
+
+_launchGithubURL() async {
+  const url = 'https://www.github.com/tddyer';
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not load webpage';
+  }
+}
+
+_launchLinkedinURL() async {
+  const url = 'https://www.linkedin.com/in/tanner-dyer';
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not load webpage';
   }
 }

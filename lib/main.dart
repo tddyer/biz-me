@@ -84,14 +84,14 @@ class MyApp extends StatelessWidget {
                 ButtonBar(
                   alignment: MainAxisAlignment.center,
                   children: <Widget>[
-                    RaisedButton( 
+                    FlatButton( 
                       onPressed: () {},
-                      color: Colors.white,
-                      child: Text('LinkedIn'),),
-                    RaisedButton(
+                      color: Colors.transparent,
+                      child: Image.asset('images/linkedin-material-white.png')),
+                    FlatButton(
                       onPressed: () {}, 
-                      color: Colors.white,
-                      child: Text('Github')),
+                      color: Colors.transparent,
+                      child: Image.asset('images/github-material-white.png')),
                   ],
                 ),
               ],

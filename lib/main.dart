@@ -90,7 +90,7 @@ class MyApp extends StatelessWidget {
                       color: Colors.transparent,
                       child: Image.asset('images/linkedin-material-white.png')),
                     FlatButton(
-                      onPressed: _launchLinkedinURL, 
+                      onPressed: _launchGithubURL, 
                       color: Colors.transparent,
                       child: Image.asset('images/github-material-white.png')),
                   ],

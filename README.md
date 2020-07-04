@@ -6,7 +6,7 @@ This app is designed to represent a business card that displays my contact infor
 
 ## Screenshots
 
-![bizMeScreenshot](https://user-images.githubusercontent.com/39466067/86519828-44b3c480-be04-11ea-9e1c-1e2378499bfe.png)
+![bizMeScreenshot-scaled](https://user-images.githubusercontent.com/39466067/86519994-a45e9f80-be05-11ea-82b0-0a674798a07c.png)
 
 
 ## Motivation

@@ -15,4 +15,4 @@ This project was developed while following the LinkedIn Learning courses "Flutte
 
 ## References
 
-Icons by Icons8
+Social media icons by Icons8
